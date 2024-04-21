@@ -7,7 +7,7 @@ from q1_LucasOliveira import processar_transacao, criar_transacao, transacao_com
 
 class test_de_(unittest.TestCase):
 
-    def configuracao_do_test(self):
+    def setUp(self):
         self.user_name = "admin"
         self.user_Fund = round(random.uniform(1, 2000), 2)
 

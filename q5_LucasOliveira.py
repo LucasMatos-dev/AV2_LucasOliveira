@@ -44,6 +44,8 @@ criar_transacao = lambda fundos_usuario, nome_usuario: (
     )
 )
 
+# Usuario correto: admin
+# Senha correta: admin123
 admin_password_encrypted = senha_criptografada("admin123", key, iv)
 armazenar_senha_criptografada("admin", admin_password_encrypted)
 
